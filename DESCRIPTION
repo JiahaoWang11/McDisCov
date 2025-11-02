@@ -1,12 +1,14 @@
 Package: McDisCov
-Title: Differential Abundance via GCLR with Covariance Shrinkage
+Title: Outcome-linked Microbiome Discovery via Compositional lOgit-normal Modeling under Varying Support
 Version: 0.1.0
 Authors@R: person("Jiahao", "Wang", email = "10225000478@stu.ecnu.edu.cn", role = c("aut", "cre"))
-Description: Identify taxa whose absolute and relative abundances are associated with covariates using GCLR transformation and covariance shrinkage with RcppEigen acceleration.
+Description: Identify taxa whose absolute and relative abundances are associated with covariates. McDisCoV unifies absolute and relative abundance inference under a compositional logit-normal model framework.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-LinkingTo: Rcpp, RcppEigen
+LinkingTo: 
+    Rcpp, 
+    RcppEigen
 Imports:
     Rcpp,
     MASS,
@@ -21,5 +23,5 @@ Suggests:
 Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-URL: https://github.com/JiahaoWang11/McDisCov
-BugReports: https://github.com/JiahaoWang11/McDisCov/issues
+URL: https://github.com/JiahaoWang11/McDisCoV
+BugReports: https://github.com/JiahaoWang11/McDisCoV/issues
