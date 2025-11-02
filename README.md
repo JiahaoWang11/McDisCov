@@ -23,8 +23,9 @@ devtools::install_github("JiahaoWang11/McDisCov")
 ## Quick usage
 
 ``` r
-# Install devtools if needed
 library(McDisCov)
+
+# model fitting
 McDisCov(
   taxa_data, 
   meta_data,
@@ -40,5 +41,6 @@ McDisCov(
   lambda_seq = seq(0, 1, by = 0.1)
 )
 
+# GCLR inference
 gclr.test(model, variables, w1, w2)
 ```
